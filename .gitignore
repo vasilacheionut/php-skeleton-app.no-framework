@@ -1,0 +1,5 @@
+# exclude everything /*
+# except files *.php
+/*
+!.gitignore
+!push.sh
