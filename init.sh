@@ -1,4 +1,5 @@
 #!/bin/sh
 
-push_nr=1
-echo $((push_nr))
+i=0
+echo i: $((i+=1))
+
