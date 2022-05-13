@@ -1,5 +1,5 @@
 #!/bin/sh
 
 i=0
-echo i: $((i+=1))
+i=`expr $i + 1`; echo $i;
 
