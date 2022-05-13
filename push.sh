@@ -1,5 +1,5 @@
 #!/bin/sh
-push=`expr $i + 1`; echo $i;
+push=$i;
 echo $push
 
 git add * -f .gitignore 
