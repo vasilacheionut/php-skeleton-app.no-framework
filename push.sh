@@ -1,7 +1,7 @@
 #!/bin/sh
 push=$((i+=1));
 echo $push;
-i=$((push+=1));
+
 echo $((i = push));
 
 
