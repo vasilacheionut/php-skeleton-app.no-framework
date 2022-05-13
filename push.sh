@@ -1,5 +1,5 @@
 #!/bin/sh
-push=$((i+=1));
+push=$((i));
 echo $push;
 push=$((push+=1));
 echo $((i = push));
