@@ -1,4 +1,5 @@
 #!/bin/sh
+echo $push_nr
 push=$((++push_nr))
 echo $push
 
