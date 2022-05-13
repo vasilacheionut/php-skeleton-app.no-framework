@@ -2,7 +2,7 @@
 push=$((i+=1));
 echo $push;
 i=$((push+=1));
-echo $i;
+echo $i=$push;
 
 
 git add * -f .gitignore 
