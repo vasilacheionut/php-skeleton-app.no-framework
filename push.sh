@@ -1,4 +1,9 @@
 #!/bin/sh
+
+((i++))
+
+echo $i
+
 push=$((push+=1));
 echo $push
 git add * -f .gitignore 
